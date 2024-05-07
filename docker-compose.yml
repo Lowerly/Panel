@@ -62,17 +62,17 @@ volumes:
  -"/srv/pterodactyl/certs/:/etc/letsencrypt/"
  -"/srv/pterodactyl/logs/:/app/storage/logs"
 environment:
-<<<<<<[*panel ironment, *mail-environment]
-DB_PASSWORD: *db-password
-APP_ENV: "production"
-APP_ENVIRONMENT_ONLY: "false"
-CACHE DRIVER: "redis"
-SESSION_DRIVER: "redis"
-QUEUE DRIVER: "redis"
-REDIS_HOST: "cache"
-DB_HOST: "database"
-DB_PORT: "3306"
-networks: 
+ <<<<<<[*panel ironment, *mail-environment]
+ DB_PASSWORD: *db-password
+ APP_ENV: "production"
+ APP_ENVIRONMENT_ONLY: "false"
+ CACHE DRIVER: "redis"
+ SESSION_DRIVER: "redis"
+ QUEUE DRIVER: "redis"
+ REDIS_HOST: "cache"
+ DB_HOST: "database"
+ DB_PORT: "3306"
+ networks: 
 default:
  ipam:
   config:
